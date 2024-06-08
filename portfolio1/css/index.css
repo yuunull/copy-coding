@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 0 4%;
+}
+
+.header-continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  ul {
+    display: flex;
+    padding: 10px 0;
+    line-height: 20px;
+
+    li {
+      margin-left: 30px;
+      list-style: none;
+    }
+
+    li a {
+      color: #24292e;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    li img {
+      width: 20px;
+      object-fit: cover;
+    }
+  }
+}
+
+.mainvisual {
+  margin-top: 60px;
+
+  img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+  }
+}
+
+.section-title {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-address {
+  margin-top: 30px;
+
+  p {
+    line-height: 7px;
+  }
+}
+
+.about-profile {
+  margin-top: 30px;
+}
