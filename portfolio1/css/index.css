@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
+  font-size: 14px;
 }
 
 a {
@@ -60,12 +66,48 @@ a {
 
 .about-address {
   margin-top: 30px;
-
-  p {
-    line-height: 7px;
-  }
 }
 
 .about-profile {
   margin-top: 30px;
+}
+
+.grid-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 960px;
+    margin: 30px auto 0 auto;
+    padding: 0 4%;
+  }
+
+  .mainvisual {
+    margin: 0;
+  }
+
+  .header-continer {
+    flex-direction: column;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
