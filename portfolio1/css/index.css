@@ -92,6 +92,20 @@ a {
   }
 }
 
+.news-list-cols {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+}
+
+.news-list-title {
+  max-width: 20%;
+}
+
+.news-list-content {
+  max-width: 80%;
+}
+
 @media (max-width: 600px) {
   .wrapper {
     max-width: 960px;
