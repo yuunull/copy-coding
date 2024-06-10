@@ -31,7 +31,14 @@
 
     <main>
       <div class="mainvisual">
-        <img src="img/mainvisual-pc.jpg" alt="トップ画像" />
+        <picture>
+          <source
+            srcset="img/mainvisual-sp.jpg"
+            media="(max-width: 600px)"
+            type="image/jpg"
+          />
+          <img src="img/mainvisual-pc.jpg" alt="トップ画像" />
+        </picture>
       </div>
 
       <div class="wrapper">
@@ -84,7 +91,60 @@
               デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
             </div>
           </li>
+          <li class="news-list-cols">
+            <div class="news-list-title">2020.XX.XX</div>
+            <div class="news-list-content">
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+            </div>
+          </li>
+          <li class="news-list-cols">
+            <div class="news-list-title">2020.XX.XX</div>
+            <div class="news-list-content">
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+            </div>
+          </li>
+          <li class="news-list-cols">
+            <div class="news-list-title">2020.XX.XX</div>
+            <div class="news-list-content">
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+            </div>
+          </li>
+          <li class="news-list-cols">
+            <div class="news-list-title">2020.XX.XX</div>
+            <div class="news-list-content">
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+            </div>
+          </li>
         </ul>
+      </div>
+
+      <div class="wrapper">
+        <section id="contact">
+          <h2 class="section-title">Contact</h2>
+        </section>
+        <ul class="contact-list">
+          <li class="contact-list-cols">
+            <div class="contact-list-title">NAME</div>
+            <div class="contact-list-content">
+              <input type="text" />
+            </div>
+          </li>
+          <li class="contact-list-cols">
+            <div class="contact-list-title">E-mail</div>
+            <div class="contact-list-content">
+              <input type="text" />
+            </div>
+          </li>
+          <li class="contact-list-cols">
+            <div class="contact-list-title">MESSAGE</div>
+            <div class="contact-list-content">
+              <textarea></textarea>
+            </div>
+          </li>
+        </ul>
+        <div class="contact-submit">
+          <button>送信</button>
+        </div>
       </div>
     </main>
   </body>
